@@ -44,10 +44,9 @@ function addNewDiv(){
     container.appendChild(newDiv);
 }
 
-
-document.getElementById("button").addEventListener("click", function(){
+function buttonCall(){
     addPText();
     addGloriousText(); 
     addH3Blue();   
     addNewDiv();
-});
+}
